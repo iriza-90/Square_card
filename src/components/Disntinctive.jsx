@@ -6,16 +6,16 @@ const PopularFeatures = () => {
                <div className="text">
                <p>What Features Make Our
                <d className="but">
-                 <button className="but">  
+                 {/* <button className="but">  
                   From 2020 
-                 </button>
+                 </button> */}
                </d>
                Bank Card Distinctive <br /> And Popular ?
                </p>
             
                </div>
                <p>
-                  According to the needs of users and different Strata, We have provided a new  <br /> bank card that can be the soluton to all your needs.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ab et eius dolorem soluta atque  <br /> dignissimos tempora explicabo.  ex sapiente facere molestias.
                </p>
                <section className="grid">
                  <section>
@@ -29,13 +29,13 @@ const PopularFeatures = () => {
                      <div className="nubr">
                         2
                      </div>
-                     <p> Personalization Features</p>
+                     <p> Ease of use</p>
                   </section>
                   <section className="featuress">
                      <div className="nubr">
                         3
                      </div>
-                     <p> Personalization Features</p>
+                     <p> User Friendly Cards</p>
                   </section>
                  </section>
                   <section>
@@ -43,13 +43,13 @@ const PopularFeatures = () => {
                      <div className="nubr">
                         4
                      </div>
-                     <p> Personalization Features</p>
+                     <p> Low fee</p>
                   </section>
                   <section className="featuress">
                      <div className="nubr">
                         5
                      </div>
-                     <p> Personalization Features</p>
+                     <p> Broad Acceptance</p>
                   </section>
                   </section>
                </section>

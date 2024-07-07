@@ -1,0 +1,87 @@
+.features-highlight {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .features-highlight .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .features-highlight .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .features-highlight .header p {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .features-highlight .header .year-button {
+    background-color: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .features-highlight .subtitle {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  .features-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .text-section {
+    flex: 1;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .feature {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .number {
+    background-color: #c4fb6d;
+    color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }

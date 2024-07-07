@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
 import { FaEnvelope, FaPhone, FaTwitter, FaFacebook } from 'react-icons/fa';
+import './footer.css'; 
 
 const Footer = () => {
   return (
@@ -35,9 +35,9 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-contact">
-            <p>Contact Us</p>
-            <a href="mailto:support@squarecard.com"><FaEnvelope /> support@squarecard.com</a>
-            <p><FaPhone /> +123 456 7890</p>
+            <p className="contact-title">Contact Us</p>
+            <a href="mailto:support@squarecard.com" className="contact-link"><FaEnvelope /> support@squarecard.com</a>
+            <p className="contact-link"><FaPhone /> +123 456 7890</p>
             <div className="footer-social">
               <a href="https://twitter.com"><FaTwitter /></a>
               <a href="https://facebook.com"><FaFacebook /></a>
@@ -45,6 +45,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <div className="curved-divider"></div>
       <div className="footer-bottom">
         <p>&copy; 2023 Square Card. All Rights Reserved.</p>
       </div>

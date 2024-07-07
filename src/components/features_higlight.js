@@ -4,7 +4,7 @@ import '../App.css';
 const features_highlight = () => {
   return (
     <section class="features-highlight">
-        <h2>What Features Make Our Bank Card Distinctive And Popular?</h2>
+        <h2>What Features Make Our <br /> Bank Card Distinctive And Popular?</h2>
         <ul>
             <li>1. Personalization Features</li>
             <li>2. Ease Of Use</li>

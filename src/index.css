@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+
+.stretch{
+  font-weight: bold;
+  display: flex;
+  gap: 60px;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.but button{
+  height: 30px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.short{
+  width: 5px;
+  height: 5px;
+}
+
+.text{
+  font-size: 40px;
+}
+
+.nubr{
+  height: 25px;
+  width: 25px;
+  background-color: rgb(232, 235, 30);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featuress{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.grid{
+  display: flex;
+  gap: 25px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 10px;
+  gap: 180px;
+  background-color: white;
+}
+
+.serv{
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: center;
+}
+
+.textl{
+  font-size: 12px;
+}

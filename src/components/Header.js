@@ -1,15 +1,21 @@
 import React from 'react';
 import '../App.css';
 
+
 const Header = () => {
   return (
     <header>
         <div class="header-left">
-            <div class="logo">Square Card</div>
+            <img src='logo.svg' alt='logo' />
+            <div class="logo">
+            <h1>
+                Square Card
+            </h1>
+            </div>
         </div>
         <nav>
             <ul class="nav-links">
-                <li><a href="#">Home</a></li>
+                <li><a href="#" className='active-link'>Home</a></li>
                 <li><a href="#">Learn</a></li>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Blog</a></li>

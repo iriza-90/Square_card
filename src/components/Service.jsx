@@ -4,7 +4,7 @@ import '../App.css';
 const Service = () => {
    return ( 
       <section>
-         <section className="serv">
+         <section className="serv w-0 bg-black">
             <section>
                <p>
                   We Tried To Provide You With All Global  Banking Services
